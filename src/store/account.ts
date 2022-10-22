@@ -54,11 +54,7 @@ export const useAccountStore = defineStore('account', {
         },
     },
     getters: {
-        isInArchived: state => {
-            return state.archivedAccounts.some(
-                v => v.id === state.activeAccount?.id
-            );
-        },
+        getActiveAccount: state => state.activeAccount,
     },
     persist: {
         key: 'temp-mail-account',

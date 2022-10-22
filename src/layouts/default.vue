@@ -4,7 +4,7 @@
     <aside>
         <AppSidebar />
     </aside>
-    <main class="pl-[300px]">
+    <main class="pl-[300px] py-4">
         <RouterView />
     </main>
 </template>

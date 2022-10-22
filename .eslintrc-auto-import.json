@@ -218,6 +218,7 @@
     "useMediaQuery": true,
     "useMemoize": true,
     "useMemory": true,
+    "useMessages": true,
     "useMounted": true,
     "useMouse": true,
     "useMouseInElement": true,
